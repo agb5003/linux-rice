@@ -109,4 +109,4 @@ xinput --set-prop 11 'libinput Accel Speed' -0.65
 
 alias clocks="flatpak run org.gnome.clocks"
 
-alias updaterice="cp ~/.bashrc ~/Documents/GitHub/linux-rice/.bashrc && cp ~/.config/kitty/kitty.conf ~/Documents/GitHub/linux-rice/.config/kitty/kitty.conf"
+alias updaterice="cp ~/.bashrc ~/Documents/GitHub/linux-rice/.bashrc && cp ~/.config/kitty/kitty.conf ~/Documents/GitHub/linux-rice/.config/kitty/kitty.conf && github-desktop"
