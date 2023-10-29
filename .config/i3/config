@@ -185,6 +185,8 @@ bindsym $mod+r mode "resize"
 
 ##  Custom  ##
 exec --no-startup-id nitrogen --restore
+# Change xrandr setup as detected
+exec --no-startup-id autorandr -c
 
 # Autofloats
 for_window [window_role="About"] floating enable
@@ -217,8 +219,6 @@ gaps outer 0
 for_window [class=".*"] title_format " %title"
 
 bindsym Print exec "flameshot gui"
-
-bindsym $mod+c exec "flatpak run org.gnome.clocks"
 
 # Dark sys default
 exec --no-startup-id /usr/lib/gsd-xsettings
