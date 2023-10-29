@@ -1,0 +1,8 @@
+// Place your key bindings in this file to override the defaults
+[
+    // Linux keybinds
+    {
+        "key": "ctrl+space",
+        "command": "workbench.action.showCommands",
+    },
+]

@@ -1,0 +1,25 @@
+ex4init
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	modified:   lec02/factorial
+#	new file:   lec04/ex4-1/ex4-1.md
+#	new file:   lec04/ex4-1/ex4-1.png
+#	new file:   lec04/ex4-4/ex4-4.md
+#	new file:   lec04/ex4-4/octave/output-plot.png
+#	new file:   lec04/ex4-4/octave/sinplot.m
+#	modified:   lec04/ex4-4/poly_sin3
+#	modified:   lec04/ex4-4/poly_sin3.c
+#	new file:   lec04/ex4-4/poly_sin5
+#	new file:   lec04/ex4-4/poly_sin5.c
+#	new file:   lec04/ex4-4/polyout3
+#	new file:   lec04/ex4-4/polyout3.c
+#	new file:   lec04/ex4-4/polyout5
+#	new file:   lec04/ex4-4/polyout5.c
+#	new file:   lec04/ex4-4/polytest
+#	new file:   lec04/poly
+#
