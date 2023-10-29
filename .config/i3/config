@@ -192,7 +192,7 @@ for_window [class="vlc"] floating enable
 for_window [title="Authy"] floating enable
 for_window [title="Bitwarden"] floating enable
 for_window [class="GitHub Desktop"] floating enable
-for_window [type="pop-up"] floating enable
+for_window [widnow_role="pop-up"] floating enable
 
 # Colors
 # class                 border  backgr. text    indicator child_border
