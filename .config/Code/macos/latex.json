@@ -1,0 +1,72 @@
+{
+	"TeX Image": {
+		"prefix": "teximg",
+		"body": [
+			"\\\\begin{figure}[h]",
+			"\t\\\\centering",
+			"\t\\\\includegraphics[width=$1pt]{$2}",
+			"\t\\\\caption[short]{$3}",
+			"\\\\end{figure}",
+			"$0"
+		]
+	},
+
+	"TeX Superscript": {
+		"body": "\\\\textsuperscript{$1}"
+	},
+
+	"TeX Subscript": {
+		"body": "\\\\textsubscript{$1}"
+	},
+
+	"TeX Numbered List": {
+		"prefix": "texnum",
+		"body": [
+			"\\\\begin{enumerate}",
+			"\t\\\\item $0",
+			"\\\\end{enumerate}"	
+		]
+	},
+
+	"TeX Bullet List": {
+		"prefix": "texbul",
+		"body": [
+			"\\\\begin{itemize}",
+			"\t\\\\item $0",
+			"\\\\end{itemize}"
+		]
+	},
+
+	"TeX Italic": {
+		"body": [
+			"\\\\textit{$TM_SELECTED_TEXT$1}$0"
+		]
+	},
+
+	"TeX Bold": {
+		"body": [
+			"\\\\textbf{$TM_SELECTED_TEXT$1}$0"
+		]
+	},
+
+	"TeX Equation": {
+		"prefix": "texeq",
+		"body": [
+			"\\\\begin{equation}",
+			"\t$1",
+			"\t\\\\label{eq:$2}",
+			"\\\\end{equation}$0",
+		]
+	},
+
+	"TeX Mathrm": {
+		"prefix": "texmrm",
+		"body": [
+			"\\\\mathrm{$TM_SELECTED_TEXT$1}$0"
+		]
+	},
+
+	"TeX Comment": {
+		"body": "% $TM_SELECTED_TEXT$0"
+	}
+}

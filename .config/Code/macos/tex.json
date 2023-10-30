@@ -1,0 +1,41 @@
+{
+	"TeX Image": {
+		"prefix": "teximg",
+		"body": [
+			"\\\\begin{figure}[h]",
+			"\t\\\\centering",
+			"\t\\\\includegraphics[width=$1pt]{$2}",
+			"\t\\\\caption[short]{$3}",
+			"\\\\end{figure}",
+			"$0"
+		]
+	},
+
+	"TeX Superscript": {
+		"prefix": "texsup",
+		"body": "\\\\textsuperscript{$1}"
+	},
+
+	"TeX Subscript": {
+		"prefix": "texsup",
+		"body": "\\\\textsubscript{$1}"
+	},
+
+	"TeX Numbered List": {
+		"prefix": "texnum",
+		"body": [
+			"\\\\begin{enumerate}",
+			"\t\\\\item $0",
+			"\\\\end{enumerate}"	
+		]
+	},
+
+	"TeX Bullet List": {
+		"prefix": "texbul",
+		"body": [
+			"\\\\begin{itemize}",
+			"\t\\\\item $0",
+			"\\\\end{itemize}"
+		]
+	}
+}
