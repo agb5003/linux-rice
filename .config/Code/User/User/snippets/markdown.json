@@ -28,7 +28,15 @@
 	"Markdown Bold": {
 		"prefix": "mdbold",
 		"body": [
-			"**$TM_SELECTED_TEXT**$1"
+			"**$TM_SELECTED_TEXT$1**$0"
+		],
+		"description": "surround selected text with HTML paragraph tags and center align"
+	},
+
+	"Markdown Italic": {
+		"prefix": "mditalic",
+		"body": [
+			"*$TM_SELECTED_TEXT$1*$0"
 		],
 		"description": "surround selected text with HTML paragraph tags and center align"
 	},
