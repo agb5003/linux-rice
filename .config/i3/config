@@ -189,6 +189,8 @@ exec --no-startup-id nitrogen --restore
 exec --no-startup-id autorandr -c
 # Change mouse sens
 exec --no-startup-id xinput --set-prop Logitech\ USB\ Receiver 'libinput Accel Speed' -0.65
+# Change default audio sink
+exec --no-startup-id pactl set-default-sink 545
 
 # Autofloats
 for_window [window_role="About"] floating enable
