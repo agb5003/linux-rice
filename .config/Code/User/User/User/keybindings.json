@@ -1,0 +1,203 @@
+// MACOS KEYBINDS
+[
+  // GENERAL
+  {
+    "key": "ctrl+space",
+    "command": "workbench.action.showCommands"
+  },
+
+  {
+    "key": "tab",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+
+  {
+    "key": "down",
+    "command": "-selectNextSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+
+  {
+    "key": "shift+tab",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+
+  {
+    "key": "up",
+    "command": "-selectPrevSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+
+  // Vim-like shortcuts
+  {
+    "key": "alt+k",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "alt+j",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus"
+  },
+
+  // HTML
+
+  {
+    "key": "ctrl+h a 2",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "name": "HTML Center Align"
+    }
+  },
+
+  {
+      "key": "ctrl+h i",
+      "command": "editor.action.insertSnippet",
+      "when": "editorTextFocus",
+      "args": {
+        "name": "HTML Image Insert"
+      }
+  },
+
+  {
+    "key": "ctrl+h ctrl+i",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "name": "HTML Image Insert (noshade class)"
+    }
+  },
+
+  {
+      "key": "ctrl+h l",
+      "command": "editor.action.insertSnippet",
+      "when": "editorTextFocus",
+      "args": {
+        "name": "HTML Link Insert"
+      }
+  },
+
+  {
+    "key": "ctrl+h f",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "name": "HTML Figure"
+    }
+  },
+
+  // Markdown
+
+  {
+    "key": "ctrl+m l",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "name": "Markdown Link"
+    }
+  },
+
+  {
+    "key": "ctrl+m m",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "name": "Markdown Math"
+    }
+  },
+
+  {
+    "key": "ctrl+m ctrl+m",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "name": "Markdown MATLAB/Octave Code"
+    }
+  },
+
+  {
+    "key": "ctrl+m f",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "name": "Markdown Footer"
+    }
+  },
+
+  {
+    "key": "ctrl+m b",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "name": "Markdown Bold"
+    }
+  },
+
+  {
+    "key": "ctrl+m i",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "name": "Markdown Italic"
+    }
+  },
+
+  // TeX
+  {
+    "key": "ctrl+t ctrl+w",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "name": "TeX Superscript"
+    }
+  },
+
+  {
+    "key": "ctrl+t ctrl+s",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "name": "TeX Subscript"
+    }
+  },
+
+  {
+    "key": "ctrl+t i",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "name": "TeX Italic"
+    }
+  },
+
+  {
+    "key": "ctrl+t b",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "name": "TeX Bold"
+    }
+  },
+
+  {
+    "key": "ctrl+t ctrl+c",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "name": "TeX Comment"
+    }
+  },
+
+  {
+    "key": "ctrl+t r",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "name": "TeX Mathrm"
+    }
+  },
+]

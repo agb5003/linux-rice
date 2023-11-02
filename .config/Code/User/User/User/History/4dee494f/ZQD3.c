@@ -1,0 +1,28 @@
+/*
+calculation of polynomials poly.c
+*/
+
+#include <stdio.h>
+#include <math.h>
+
+#define N  4
+#define M_PI M_PI
+
+int main()
+{
+    /**** (1) variable declaration ****/
+    /* set coefficients */
+    double	c[N] = {0, 1, 0, -1/6};
+    
+    double	x, y;
+    int	i ;
+    
+    /**** (2) processing contents ****/
+    for(x = -M_PI; x <= M_PI; x += M_PI/12){
+        for(y = c[N-1], i = N-2; i >= 0; --i) {
+            y = y * x + c[i];
+        }
+        printf("%f %f\n", x, y);
+    }
+    return 0;
+}
