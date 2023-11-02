@@ -1,0 +1,13 @@
+// Place your key bindings in this file to override the defaults
+[
+    // Linux keybinds
+    {
+        "key": "ctrl+space",
+        "command": "workbench.action.showCommands",
+    },
+    {
+        "key": "ctrl+m f",
+        "command": "editor.action.insertSnippet",
+        "name": "Markdown Footer"
+    }
+]
