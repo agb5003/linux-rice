@@ -29,6 +29,8 @@ alias picomconfig="nv ~/.config/picom/picom.conf"
 
 alias polybarconfig="nv ~/.config/polybar/config.ini"
 
+alias desktopentries="cd ~/.local/share/applications"
+
 alias updaterice="cp ~/.bashrc ~/GitHub/linux-rice/.bashrc && cp ~/.config/i3/config ~/GitHub/linux-rice/.config/i3/config && cp -r /home/max/.config/Code/User ~/GitHub/linux-rice/.config/Code/User && cp ~/.config/rofi/config.rasi ~/GitHub/linux-rice/.config/rofi/config.rasi && cp ~/.config/picom/picom.conf ~/GitHub/linux-rice/.config/picom/picom.conf && cp ~/.config/alacritty/alacritty.yml ~/GitHub/linux-rice/.config/alacritty/alacritty.yml && github-desktop"
 
 alias cdpip="cd ~/Documents/GitHub/pip"
