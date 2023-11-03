@@ -29,10 +29,10 @@ alias picomconfig="nv ~/.config/picom/picom.conf"
 
 alias polybarconfig="nv ~/.config/polybar/config.ini"
 
-alias clocks="flatpak run org.gnome.clocks"
-
 alias updaterice="cp ~/.bashrc ~/GitHub/linux-rice/.bashrc && cp ~/.config/i3/config ~/GitHub/linux-rice/.config/i3/config && cp -r /home/max/.config/Code/User ~/GitHub/linux-rice/.config/Code/User && cp ~/.config/rofi/config.rasi ~/GitHub/linux-rice/.config/rofi/config.rasi && github-desktop"
 
 alias cdpip="cd ~/Documents/GitHub/pip"
 
 export LD_PRELOAD="/usr/lib64/libglib-2.0.so"
+
+
