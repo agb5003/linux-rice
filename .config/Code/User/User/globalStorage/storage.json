@@ -6,16 +6,18 @@
             "file:///home/max/GitHub/pip/midterm": "__default__profile__",
             "file:///home/max/GitHub/pip": "__default__profile__"
         },
-        "emptyWindows": {
-            "1698992590203": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "",
     "telemetry.machineId": "4c584911a3d169d8325f13982b49c6309bf6855fff72481721bb627677ec0ac8",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/max/GitHub/pip"
+            }
+        ],
         "emptyWindows": [
             {
                 "backupFolder": "1698992590203"
@@ -60,7 +62,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -133,17 +136,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/Downloads/pycharm-2023.2.3/build.txt"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/max/Downloads/pycharm-2023.2.3/Install-Linux-tar.txt",
-                                        "path": "/home/max/Downloads/pycharm-2023.2.3/Install-Linux-tar.txt",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Downloads/pycharm-2023.2.3/Install-Linux-tar.txt"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -223,6 +215,13 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
+                                {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -357,6 +356,10 @@
                     {
                         "id": "workbench.action.closeActiveEditor",
                         "label": "&&Close Editor"
+                    },
+                    {
+                        "id": "workbench.action.closeFolder",
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -565,7 +568,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel"
+                                    "label": "&&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -830,7 +834,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -839,7 +844,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1155,8 +1161,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1352,6 +1357,11 @@
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
             },
+            "workbench.action.closeFolder": {
+                "label": "Ctrl+K F",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k f"
+            },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
                 "userSettingsLabel": "alt+f4"
@@ -1517,8 +1527,9 @@
                 "userSettingsLabel": "ctrl+shift+f"
             },
             "workbench.view.scm": {
-                "label": "Ctrl+Shift+G",
-                "userSettingsLabel": "ctrl+shift+g"
+                "label": "Ctrl+Shift+G G",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+shift+g g"
             },
             "workbench.view.debug": {
                 "label": "Ctrl+Shift+D",
@@ -1750,12 +1761,13 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/max/.config/Code/Backups/1698992590203",
+            "folder": "file:///home/max/GitHub/pip",
+            "backupPath": "/home/max/.config/Code/Backups/9cbde02f480ccfdd1de82ab5b871ea50",
             "uiState": {
                 "mode": 1,
-                "x": 646,
+                "x": 966,
                 "y": 74,
-                "width": 628,
+                "width": 944,
                 "height": 996
             }
         },
