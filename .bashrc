@@ -2,10 +2,10 @@ alias ls='ls --color=auto'
 alias ll='ls -lav --ignore=..'   # show long listing of all except ".."
 alias l='ls -lav --ignore=.?*'   # show long listing but no hidden dotfiles except "."
 
-[[ "$(whoami)" = "root" ]] && return
+# [[ "$(whoami)" = "root" ]] && return
 
-[[ -z "$FUNCNEST" ]] && export FUNCNEST=100          # limits recursive functions, see 'man bash'
-
+# [[ -z "$FUNCNEST" ]] && export FUNCNEST=100          # limits recursive functions, see 'man bash'
+PS1="\u \W $ "
 ## Use the up and down arrow keys for finding a command in history
 ## (you can write some initial letters of the command first).
 bind '"\e[A":history-search-backward'
@@ -29,10 +29,36 @@ alias picomconfig="nv ~/.config/picom/picom.conf"
 
 alias polybarconfig="nv ~/.config/polybar/config.ini"
 
-alias updaterice="cp ~/.bashrc ~/GitHub/linux-rice/.bashrc && cp ~/.config/i3/config ~/GitHub/linux-rice/.config/i3/config && cp -r /home/max/.config/Code/User ~/GitHub/linux-rice/.config/Code/User && cp ~/.config/rofi/config.rasi ~/GitHub/linux-rice/.config/rofi/config.rasi && github-desktop"
+alias updaterice="cp ~/.bashrc ~/GitHub/linux-rice/.bashrc && cp ~/.config/i3/config ~/GitHub/linux-rice/.config/i3/config && cp -r /home/max/.config/Code/User ~/GitHub/linux-rice/.config/Code/User && cp ~/.config/rofi/config.rasi ~/GitHub/linux-rice/.config/rofi/config.rasi && cp ~/.config/picom/picom.conf ~/GitHub/linux-rice/.config/picom/picom.conf && github-desktop"
 
 alias cdpip="cd ~/Documents/GitHub/pip"
 
 export LD_PRELOAD="/usr/lib64/libglib-2.0.so"
 
+export PATH=$PATH:/home/max/bin/pycharm-2023.2.3/bin:/home/max/bin/clion-2023.2.2/bin/
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+neofetch
