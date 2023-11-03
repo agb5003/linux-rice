@@ -184,7 +184,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 ##  Custom  ##
-exec --no-startup-id nitrogen --restore
+exec --no-startup-id variety --restore
 # Change xrandr setup as detected
 exec --no-startup-id autorandr -c
 # Change mouse sens

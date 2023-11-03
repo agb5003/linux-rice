@@ -35,7 +35,7 @@ alias cdpip="cd ~/Documents/GitHub/pip"
 
 export LD_PRELOAD="/usr/lib64/libglib-2.0.so"
 
-export PATH=$PATH:/home/max/bin/pycharm-2023.2.3/bin:/home/max/bin/clion-2023.2.2/bin/
+export PATH=$PATH:/home/max/bin:/home/max/bin/pycharm-2023.2.3/bin:/home/max/bin/clion-2023.2.2/bin/
 
 
 
