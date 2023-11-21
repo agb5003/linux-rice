@@ -2,22 +2,23 @@
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
-            "file:///home/max/.config": "__default__profile__",
-            "file:///home/max/Documents/GitHub/linux-rice": "__default__profile__",
-            "file:///home/max/Documents/GitHub/pip": "__default__profile__"
+            "file:///home/max/Downloads": "__default__profile__",
+            "file:///home/max/GitHub/pip/midterm": "__default__profile__",
+            "file:///home/max/GitHub/pip": "__default__profile__",
+            "file:///home/max/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_": "__default__profile__"
         },
         "emptyWindows": {
-            "1698598236187": "__default__profile__",
-            "1698677273462": "__default__profile__"
+            "1698995619048": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
+    "telemetry.sqmId": "",
     "telemetry.machineId": "4c584911a3d169d8325f13982b49c6309bf6855fff72481721bb627677ec0ac8",
     "backupWorkspaces": {
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/max/Documents/GitHub/pip"
+                "folderUri": "file:///home/max/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_"
             }
         ],
         "emptyWindows": []
@@ -70,34 +71,45 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/max/Documents/GitHub/pip",
-                                        "path": "/home/max/Documents/GitHub/pip",
+                                        "external": "file:///home/max/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_",
+                                        "path": "/home/max/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Documents/GitHub/pip"
+                                    "label": "~/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/max/Documents/GitHub/linux-rice",
-                                        "path": "/home/max/Documents/GitHub/linux-rice",
+                                        "external": "file:///home/max/GitHub/pip",
+                                        "path": "/home/max/GitHub/pip",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Documents/GitHub/linux-rice"
+                                    "label": "~/GitHub/pip"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/max/.config",
-                                        "path": "/home/max/.config",
+                                        "external": "file:///home/max/GitHub/pip/midterm",
+                                        "path": "/home/max/GitHub/pip/midterm",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config"
+                                    "label": "~/GitHub/pip/midterm"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/max/Downloads",
+                                        "path": "/home/max/Downloads",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Downloads"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -106,89 +118,78 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/max/.config/polybar/config.ini",
-                                        "path": "/home/max/.config/polybar/config.ini",
+                                        "external": "file:///home/max/.config/gtk-3.0/settings.ini",
+                                        "path": "/home/max/.config/gtk-3.0/settings.ini",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/polybar/config.ini"
+                                    "label": "~/.config/gtk-3.0/settings.ini"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/max/.config/polybar/eric-murphy-config.ini",
-                                        "path": "/home/max/.config/polybar/eric-murphy-config.ini",
+                                        "external": "file:///home/max/.config/gtk-4.0/settings.ini",
+                                        "path": "/home/max/.config/gtk-4.0/settings.ini",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/polybar/eric-murphy-config.ini"
+                                    "label": "~/.config/gtk-4.0/settings.ini"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/max/.octaverc",
-                                        "path": "/home/max/.octaverc",
+                                        "external": "file:///home/max/.config/alacritty/alacritty.yml",
+                                        "path": "/home/max/.config/alacritty/alacritty.yml",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.octaverc"
+                                    "label": "~/.config/alacritty/alacritty.yml"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/max/Downloads/keybindings%20%281%29.json",
-                                        "path": "/home/max/Downloads/keybindings (1).json",
+                                        "external": "file:///home/max/.config/kitty/kitty.conf",
+                                        "path": "/home/max/.config/kitty/kitty.conf",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Downloads/keybindings (1).json"
+                                    "label": "~/.config/kitty/kitty.conf"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/max/Downloads/keybindings.json",
-                                        "path": "/home/max/Downloads/keybindings.json",
+                                        "external": "file:///home/max/Downloads/pycharm-2023.2.3/build.txt",
+                                        "path": "/home/max/Downloads/pycharm-2023.2.3/build.txt",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Downloads/keybindings.json"
+                                    "label": "~/Downloads/pycharm-2023.2.3/build.txt"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/max/Downloads/org.gnome.clocks.flatpakref",
-                                        "path": "/home/max/Downloads/org.gnome.clocks.flatpakref",
+                                        "external": "file:///home/max/.config/alacritty/alacritty.toml",
+                                        "path": "/home/max/.config/alacritty/alacritty.toml",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Downloads/org.gnome.clocks.flatpakref"
+                                    "label": "~/.config/alacritty/alacritty.toml"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/max/Downloads/org.kryogenix.Pick.flatpakref",
-                                        "path": "/home/max/Downloads/org.kryogenix.Pick.flatpakref",
+                                        "external": "file:///home/max/.config/nvim/init.lua",
+                                        "path": "/home/max/.config/nvim/init.lua",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Downloads/org.kryogenix.Pick.flatpakref"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/max/Downloads/alacritty.yml",
-                                        "path": "/home/max/Downloads/alacritty.yml",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Downloads/alacritty.yml"
+                                    "label": "~/.config/nvim/init.lua"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -578,16 +579,28 @@
                                     "checked": true
                                 },
                                 {
-                                    "id": "workbench.action.toggleActivityBarVisibility",
-                                    "label": "&&Activity Bar",
-                                    "checked": true
-                                },
-                                {
                                     "id": "workbench.action.togglePanel",
                                     "label": "&&Panel"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "submenuitem.ActivityBarPositionMenu",
+                                    "label": "Activity Bar Position",
+                                    "submenu": {
+                                        "items": [
+                                            {
+                                                "id": "workbench.action.activityBarLocation.side",
+                                                "label": "&&Side",
+                                                "checked": true
+                                            },
+                                            {
+                                                "id": "workbench.action.activityBarLocation.hide",
+                                                "label": "&&Hidden"
+                                            }
+                                        ]
+                                    }
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarPosition",
@@ -635,6 +648,27 @@
                                             {
                                                 "id": "workbench.action.alignPanelRight",
                                                 "label": "Right"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "id": "submenuitem.EditorTabsBarShowTabsSubmenu",
+                                    "label": "Tab Bar",
+                                    "submenu": {
+                                        "items": [
+                                            {
+                                                "id": "workbench.action.showMultipleEditorTabs",
+                                                "label": "Multiple Tabs",
+                                                "checked": true
+                                            },
+                                            {
+                                                "id": "workbench.action.showEditorTab",
+                                                "label": "Single Tab"
+                                            },
+                                            {
+                                                "id": "workbench.action.hideEditorTabs",
+                                                "label": "Hide"
                                             }
                                         ]
                                     }
@@ -1490,16 +1524,16 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#23262e",
+    "themeBackground": "#262a33",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
             "foreground": "#d5ced9",
-            "background": "#23262e",
-            "editorBackground": "#23262e",
+            "background": "#262a33",
+            "editorBackground": "#262a33",
             "titleBarBackground": "#23262e",
-            "activityBarBackground": "#23262e",
+            "activityBarBackground": "#20232b",
             "sideBarBackground": "#23262e",
             "statusBarBackground": "#23262e",
             "statusBarNoFolderBackground": "#23262e"
@@ -1509,20 +1543,20 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 170,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/max/Documents/GitHub/pip",
-            "backupPath": "/home/max/.config/Code/Backups/0a14d4a58cafb91e6dd80cf1ef610c45",
+            "folder": "file:///home/max/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_",
+            "backupPath": "/home/max/.config/Code/Backups/70a9a2e1db2c9651d896d2a7a49795f0",
             "uiState": {
                 "mode": 1,
-                "x": 966,
+                "x": 1446,
                 "y": 74,
-                "width": 944,
+                "width": 464,
                 "height": 996
             }
         },

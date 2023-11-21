@@ -1,0 +1,105 @@
+{
+	"Markdown Math": {
+		"prefix": "mdmath",
+		"body": [
+			"$ $TM_SELECTED_TEXT $"
+		],
+		"description": "surround selected text with dollar signs."
+	},
+
+	"Markdown MATLAB/Octave Code": {
+		"prefix": "mdmatlab",
+		"body": [
+			"~~~matlab",
+			"$0$TM_SELECTED_TEXT",
+			"~~~"
+		],
+		"description": "surround selected text with dollar signs."
+	},
+
+	"Markdown Link": {
+		"prefix": "mdalign",
+		"body": [
+			"[$TM_SELECTED_TEXT]($1)$0"
+		],
+		"description": "surround selected text with HTML paragraph tags and center align"
+	},
+
+	"Markdown Bold": {
+		"prefix": "mdbold",
+		"body": [
+			"**$TM_SELECTED_TEXT$1**$0"
+		],
+		"description": "surround selected text with HTML paragraph tags and center align"
+	},
+
+	"Markdown Italic": {
+		"prefix": "mditalic",
+		"body": [
+			"*$TM_SELECTED_TEXT$1*$0"
+		],
+		"description": "surround selected text with HTML paragraph tags and center align"
+	},
+	
+	"HTML Center Align": {
+		"prefix": "palign",
+		"body": [
+			"<p align='center'> $TM_SELECTED_TEXT </p>"
+		],
+		"description": "surround selected text with HTML paragraph tags and center align"
+	},
+
+	"HTML Image Insert": {
+		"prefix": "htimg",
+		"body": [
+			"<img src='$1' width=500>$0"
+		]
+	},
+
+	"HTML Image Insert (noshade class)": {
+		"prefix": "htimgns",
+		"body": [
+			"<img class='noshade' src='$1' width=500>$0"
+		]
+	},
+
+	"HTML Link Insert": {
+		"prefix": "htlink",
+		"body": [
+			"<a href='$1'>$2$TM_SELECTED_TEXT</a>$0"
+		]
+	},
+
+	"HTML Figure": {
+		"prefix": "htfig",
+		"body": [
+			"<figure>",
+			"\t$TM_SELECTED_TEXT",
+			"\t<figcaption>$1</figcaption>",
+			"</figure>",
+			"$0"
+		],
+		"description": "surround selected text with HTML paragraph tags and center align"
+	},
+
+	"Markdown Footer": {
+		"prefix": "mdfoot",
+		"body": [
+			"[comment]: <> (Below is CSS code for the output HTML and pdf files. Don't touch them unless you know what you're doing.)"
+
+			"<style>"
+			"	figcaption{"
+			"	text-align:center;"
+			"		font-size:9pt"
+			"	}"
+			"	img{"
+			"		filter: drop-shadow(0px 0px 7px );"
+			"	}"
+			"	.noshade{"
+			"		filter: none"
+			"	}"
+			"</style>"
+		],
+		"description": "surround selected text with HTML paragraph tags and center align"
+	},	
+}
