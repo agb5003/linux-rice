@@ -184,11 +184,9 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 ##  Custom  ##
-exec --no-startup-id variety --restore
+exec --no-startup-id variety
 # Change xrandr setup as detected
 exec --no-startup-id autorandr -c
-# Change mouse sens
-exec --no-startup-id xinput --set-prop Logitech\ USB\ Receiver 'libinput Accel Speed' -0.65
 # Change default audio sink
 exec --no-startup-id pactl set-default-sink 545
 
@@ -213,7 +211,7 @@ client.background       #ffffff
 # Execs
 exec --no-startup-id picom -b -f
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec --no-startup-id xinput --set-prop "pointer:Logitech PRO X" 'libinput Accel Speed' -0.65
+exec --no-startup-id xinput --set-prop "pointer:Logitech PRO X" 'libinput Accel Speed' -0.6
 
 # gaps
 gaps inner 8

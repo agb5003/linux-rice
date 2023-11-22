@@ -17,12 +17,6 @@ alias kittyconfig="nv ~/.config/kitty/kitty.conf"
 
 alias critconfig="sudo nvim ~/.config/alacritty/alacritty.yml"
 
-alias extdisp="xrandr --output HDMI-1-0 --mode 1920x1080 --rate 240 --output eDP --off"
-
-alias laptopdisp="xrandr --output eDP --mode 1920x1080 --rate 144 --output HDMI-1-0 --off"
-
-alias bothdisp="xrandr --output eDP --mode 1920x1080 --rate 144 --left-of HDMI-1-0 --output HDMI-1-0 --mode 1920x1080 --rate 240"
-
 alias i3config="nv ~/.config/i3/config"
 
 alias picomconfig="nv ~/.config/picom/picom.conf"
@@ -34,6 +28,9 @@ alias desktopentries="cd ~/.local/share/applications"
 alias updaterice="cp ~/.bashrc ~/repos/linux-rice/.bashrc && cp ~/.config/i3/config ~/repos/linux-rice/.config/i3/config && cp -r /home/max/.config/Code/User ~/repos/linux-rice/.config/Code/User && cp ~/.config/rofi/config.rasi ~/repos/linux-rice/.config/rofi/config.rasi && cp ~/.config/picom/picom.conf ~/repos/linux-rice/.config/picom/picom.conf && cp ~/.config/alacritty/alacritty.yml ~/repos/linux-rice/.config/alacritty/alacritty.yml && github-desktop"
 
 alias cdpip="cd ~/Documents/repos/pip"
+
+alias mousesens="xinput --set-prop 'pointer:Logitech PRO X' 'libinput Accel Speed' -0.6"
+
 
 export LD_PRELOAD="/usr/lib64/libglib-2.0.so"
 

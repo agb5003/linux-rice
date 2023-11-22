@@ -6,7 +6,7 @@
             "file:///home/max/repos/sitebuild": "__default__profile__"
         },
         "emptyWindows": {
-            "1700672970747": "__default__profile__"
+            "1700673755589": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
@@ -17,7 +17,7 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1700672970747"
+                "backupFolder": "1700673755589"
             }
         ]
     },
@@ -89,6 +89,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///etc/pacman.d/hooks",
+                                        "path": "/etc/pacman.d/hooks",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/etc/pacman.d/hooks"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -841,7 +852,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -850,8 +862,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1762,11 +1773,11 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/max/.config/Code/Backups/1700672970747",
+            "backupPath": "/home/max/.config/Code/Backups/1700673755589",
             "uiState": {
                 "mode": 1,
-                "x": 479,
-                "y": 308,
+                "x": 882,
+                "y": 435,
                 "width": 624,
                 "height": 535
             }
