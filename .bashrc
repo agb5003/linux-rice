@@ -64,3 +64,5 @@ export PATH=$PATH:/home/max/bin:/home/max/bin/pycharm-2023.2.3/bin:/home/max/bin
 
 
 neofetch
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"

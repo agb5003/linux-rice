@@ -1,9 +1,12 @@
 {
     "userDataProfilesMigration": true,
     "profileAssociations": {
-        "workspaces": {},
+        "workspaces": {
+            "file:///home/max/repos/pip": "__default__profile__",
+            "file:///home/max/repos/sitebuild": "__default__profile__"
+        },
         "emptyWindows": {
-            "1700569779183": "__default__profile__"
+            "1700672970747": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
@@ -14,7 +17,7 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1700569779183"
+                "backupFolder": "1700672970747"
             }
         ]
     },
@@ -63,6 +66,86 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/max/repos/sitebuild",
+                                        "path": "/home/max/repos/sitebuild",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/repos/sitebuild"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/max/repos/pip",
+                                        "path": "/home/max/repos/pip",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/repos/pip"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///etc/gdm/custom.conf",
+                                        "path": "/etc/gdm/custom.conf",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/etc/gdm/custom.conf"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/max/.config/gtk-4.0/settings.ini",
+                                        "path": "/home/max/.config/gtk-4.0/settings.ini",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/gtk-4.0/settings.ini"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/max/.config/gtk-3.0/settings.ini",
+                                        "path": "/home/max/.config/gtk-3.0/settings.ini",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/gtk-3.0/settings.ini"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/max/.config/gtk-3.0/gtk.css",
+                                        "path": "/home/max/.config/gtk-3.0/gtk.css",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/gtk-3.0/gtk.css"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/max/.icons/default/index.theme",
+                                        "path": "/home/max/.icons/default/index.theme",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.icons/default/index.theme"
+                                },
+                                {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
@@ -94,39 +177,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/.icons/Bibata-Modern-Classic/cursor.theme"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/max/.icons/default/index.theme",
-                                        "path": "/home/max/.icons/default/index.theme",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.icons/default/index.theme"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/max/.config/gtk-4.0/settings.ini",
-                                        "path": "/home/max/.config/gtk-4.0/settings.ini",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/gtk-4.0/settings.ini"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/max/.config/gtk-3.0/settings.ini",
-                                        "path": "/home/max/.config/gtk-3.0/settings.ini",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/gtk-3.0/settings.ini"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -301,8 +351,9 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
-                                    "id": "workbench.userDataSync.actions.turnOn",
-                                    "label": "Backup and Sync Settings..."
+                                    "id": "workbench.userDataSync.actions.manage",
+                                    "label": "Settings Sync is On",
+                                    "checked": true
                                 }
                             ]
                         }
@@ -623,8 +674,7 @@
                                 },
                                 {
                                     "id": "editor.action.toggleMinimap",
-                                    "label": "&&Minimap",
-                                    "checked": true
+                                    "label": "&&Minimap"
                                 },
                                 {
                                     "id": "breadcrumbs.toggle",
@@ -783,8 +833,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "checked": true
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -801,7 +850,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1391,12 +1441,12 @@
                 "userSettingsLabel": "ctrl+shift+alt+down"
             },
             "editor.action.moveLinesUpAction": {
-                "label": "Alt+Up",
-                "userSettingsLabel": "alt+up"
+                "label": "Alt+K",
+                "userSettingsLabel": "alt+k"
             },
             "editor.action.moveLinesDownAction": {
-                "label": "Alt+Down",
-                "userSettingsLabel": "alt+down"
+                "label": "Alt+J",
+                "userSettingsLabel": "alt+j"
             },
             "editor.action.insertCursorAbove": {
                 "label": "Shift+Alt+Up",
@@ -1419,8 +1469,8 @@
                 "userSettingsLabel": "ctrl+shift+l"
             },
             "workbench.action.showCommands": {
-                "label": "Ctrl+Shift+P",
-                "userSettingsLabel": "ctrl+shift+p"
+                "label": "Ctrl+Space",
+                "userSettingsLabel": "ctrl+space"
             },
             "workbench.action.toggleFullScreen": {
                 "label": "F11",
@@ -1686,19 +1736,19 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#1f1f1f",
+    "themeBackground": "#262a33",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#cccccc",
-            "background": "#1f1f1f",
-            "editorBackground": "#1f1f1f",
-            "titleBarBackground": "#181818",
-            "activityBarBackground": "#181818",
-            "sideBarBackground": "#181818",
-            "statusBarBackground": "#181818",
-            "statusBarNoFolderBackground": "#1f1f1f"
+            "foreground": "#d5ced9",
+            "background": "#262a33",
+            "editorBackground": "#262a33",
+            "titleBarBackground": "#23262e",
+            "activityBarBackground": "#20232b",
+            "sideBarBackground": "#23262e",
+            "statusBarBackground": "#23262e",
+            "statusBarNoFolderBackground": "#23262e"
         },
         "layoutInfo": {
             "sideBarSide": "left",
@@ -1712,13 +1762,13 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/max/.config/Code/Backups/1700569779183",
+            "backupPath": "/home/max/.config/Code/Backups/1700672970747",
             "uiState": {
                 "mode": 1,
-                "x": 968,
-                "y": 290,
-                "width": 840,
-                "height": 654
+                "x": 479,
+                "y": 308,
+                "width": 624,
+                "height": 535
             }
         },
         "openedWindows": []
