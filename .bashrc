@@ -29,6 +29,8 @@ alias updaterice="cp ~/.bashrc ~/repos/linux-rice/.bashrc && cp ~/.config/i3/con
 
 alias cdpip="cd ~/repos/pip"
 
+alias nviminit="nvim ~/.config/nvim/init.lua"
+
 alias mousesens="xinput --set-prop 'pointer:Logitech PRO X' 'libinput Accel Speed' -0.6"
 
 alias sshpi="ssh max@192.168.0.103"
