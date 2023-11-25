@@ -2,11 +2,12 @@
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
-            "file:///home/max/repos/pip": "__default__profile__",
-            "file:///home/max/repos/sitebuild": "__default__profile__"
+            "file:///run/media/max/MAX": "__default__profile__",
+            "file:///home/max/repos/sitebuild": "__default__profile__",
+            "file:///home/max/repos/pip": "__default__profile__"
         },
         "emptyWindows": {
-            "1700673755589": "__default__profile__"
+            "1700867884546": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
@@ -17,7 +18,7 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1700673755589"
+                "backupFolder": "1700867884546"
             }
         ]
     },
@@ -69,17 +70,6 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/max/repos/sitebuild",
-                                        "path": "/home/max/repos/sitebuild",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/repos/sitebuild"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
                                         "external": "file:///home/max/repos/pip",
                                         "path": "/home/max/repos/pip",
                                         "scheme": "file"
@@ -88,29 +78,18 @@
                                     "label": "~/repos/pip"
                                 },
                                 {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/max/repos/sitebuild",
+                                        "path": "/home/max/repos/sitebuild",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/repos/sitebuild"
+                                },
+                                {
                                     "id": "vscode.menubar.separator"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///etc/pacman.d/hooks",
-                                        "path": "/etc/pacman.d/hooks",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "/etc/pacman.d/hooks"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///etc/gdm/custom.conf",
-                                        "path": "/etc/gdm/custom.conf",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "/etc/gdm/custom.conf"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -138,6 +117,72 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/max/.themes/vimix-remix/gnome-shell/gnome-shell.css",
+                                        "path": "/home/max/.themes/vimix-remix/gnome-shell/gnome-shell.css",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.themes/vimix-remix/gnome-shell/gnome-shell.css"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/max/.win10-2.draft.txt",
+                                        "path": "/home/max/.win10-2.draft.txt",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.win10-2.draft.txt"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/max/shell-theme/theme/gnome-shell-dark%20%28copy%201%29.css",
+                                        "path": "/home/max/shell-theme/theme/gnome-shell-dark (copy 1).css",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/shell-theme/theme/gnome-shell-dark (copy 1).css"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/max/shell-theme/theme/gnome-shell-dark.css",
+                                        "path": "/home/max/shell-theme/theme/gnome-shell-dark.css",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/shell-theme/theme/gnome-shell-dark.css"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///etc/pacman.d/hooks",
+                                        "path": "/etc/pacman.d/hooks",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/etc/pacman.d/hooks"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///etc/gdm/custom.conf",
+                                        "path": "/etc/gdm/custom.conf",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/etc/gdm/custom.conf"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/max/.config/gtk-3.0/gtk.css",
                                         "path": "/home/max/.config/gtk-3.0/gtk.css",
                                         "scheme": "file"
@@ -155,39 +200,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/.icons/default/index.theme"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/max/.bashrc",
-                                        "path": "/home/max/.bashrc",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.bashrc"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/max/.config/alacritty/alacritty.yml",
-                                        "path": "/home/max/.config/alacritty/alacritty.yml",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/alacritty/alacritty.yml"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/max/.icons/Bibata-Modern-Classic/cursor.theme",
-                                        "path": "/home/max/.icons/Bibata-Modern-Classic/cursor.theme",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.icons/Bibata-Modern-Classic/cursor.theme"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -574,7 +586,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar"
+                                    "label": "&&Primary Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -749,13 +762,6 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
-                                    "id": "workbench.action.splitEditorInGroup",
-                                    "label": "Split in &&Group"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
                                     "id": "workbench.action.editorLayoutSingle",
                                     "label": "&&Single"
                                 },
@@ -844,7 +850,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "enabled": false
                     }
                 ]
             },
@@ -862,7 +869,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1522,11 +1530,6 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+\\"
             },
-            "workbench.action.splitEditorInGroup": {
-                "label": "Ctrl+K Ctrl+Shift+\\",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
-            },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
                 "userSettingsLabel": "shift+alt+0"
@@ -1764,7 +1767,7 @@
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
-            "titleBarHeight": 0,
+            "titleBarHeight": 30,
             "activityBarWidth": 48,
             "sideBarWidth": 0,
             "statusBarHeight": 22,
@@ -1773,13 +1776,13 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/max/.config/Code/Backups/1700673755589",
+            "backupPath": "/home/max/.config/Code/Backups/1700867884546",
             "uiState": {
                 "mode": 1,
-                "x": 882,
-                "y": 435,
-                "width": 624,
-                "height": 535
+                "x": 960,
+                "y": 28,
+                "width": 960,
+                "height": 1052
             }
         },
         "openedWindows": []
