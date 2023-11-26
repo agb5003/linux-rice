@@ -6,21 +6,19 @@
             "file:///home/max/repos/sitebuild": "__default__profile__",
             "file:///home/max/repos/pip": "__default__profile__"
         },
-        "emptyWindows": {
-            "1700867884546": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "",
     "telemetry.machineId": "4c584911a3d169d8325f13982b49c6309bf6855fff72481721bb627677ec0ac8",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [],
-        "emptyWindows": [
+        "folders": [
             {
-                "backupFolder": "1700867884546"
+                "folderUri": "file:///home/max/repos/pip"
             }
-        ]
+        ],
+        "emptyWindows": []
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -1769,20 +1767,21 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 30,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 203,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/max/.config/Code/Backups/1700867884546",
+            "folder": "file:///home/max/repos/pip",
+            "backupPath": "/home/max/.config/Code/Backups/dd32302f8d1fffbeddcf3cd6318ebb28",
             "uiState": {
                 "mode": 1,
-                "x": 960,
-                "y": 28,
-                "width": 960,
-                "height": 1052
+                "x": 908,
+                "y": 25,
+                "width": 1012,
+                "height": 1055
             }
         },
         "openedWindows": []

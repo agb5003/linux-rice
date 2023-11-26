@@ -118,8 +118,8 @@
     ],
     "window.commandCenter": false,
     "markdown-preview-enhanced.codeBlockTheme": "github.css",
-    "markdown-preview-enhanced.previewTheme": "none.css",
-    "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Rubik'",
+    "markdown-preview-enhanced.previewTheme": "github-light.css",
+    "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Rubik', 'Droid Sans', system-ui, sans-serif",
     "cSpell.userWords": [
         "Fernaldy",
         "infty"

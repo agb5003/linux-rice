@@ -118,7 +118,7 @@
     ],
     "window.commandCenter": false,
     "markdown-preview-enhanced.codeBlockTheme": "github.css",
-    "markdown-preview-enhanced.previewTheme": "none.css",
+    "markdown-preview-enhanced.previewTheme": "github-light.css",
     "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Rubik'",
     "cSpell.userWords": [
         "Fernaldy",

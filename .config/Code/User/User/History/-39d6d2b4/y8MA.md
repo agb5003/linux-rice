@@ -1,0 +1,62 @@
+# Exercise 6-1: var_pointer.c
+Maximilian Fernaldy - C2TB1702
+
+<p align='center'> <img src='./ex6-1.png' width=75%> </p>
+
+# Introduction to pointers and memory addresses
+
+In C, memory and resource management are integral factors in writing efficient and effective code. To that end, pointers and memory addresses play an important role in doing these tasks.
+
+## Pointers in C
+
+A pointer is essentially a variable that contains the memory address of another variable, hence the name. It points to the location in the computer's memory where said variable is stored. Although the concept of pointers and memory addresses seem foreign to other, more popular languages, they are in fact not exclusive to C. For instance, the close derivative of C, C++, also uses pointers, although the language provides higher-level concepts like smart pointers, which manage memory automatically, as opposed to C where it has to be managed programmatically by the programmer. Another language that makes use of pointers is Rust, which is quickly gaining popularity, in part due to companies switching from C to it for lower-level software development. This is because Rust guarantees memory safety without having to rely on garbage collection.
+
+At an even lower level, ASM or assembly languages (specific for each processor architecture) also employ memory addresses. Assembly programmers need to manage memory manually, much like in C.
+
+## Why do we have to use pointers and memory addresses?
+
+Pointers and memory addresses are important because they can allocate memory dynamically during runtime, which allows the programmer to manage memory and processing resources more efficiently. Additionally, they also allow the creation and manipulation of more complex data structures, less variable assignment (which in turn means less memory allocation), multiple variable returns from a function in C, and many other capabilities.
+
+## Using pointers in C
+In C, the declaration and dereferencing of pointers are denoted by an asterisk (\*), and obtaining the memory address of a variable is done by using an ampersand (\&). The example program below assigns the value 1 to `x` by using a pointer that points to its memory address, `p`.
+
+<p align='center'> <img class='noshade' src='./playgroundoutput.png' width=75%> </p>
+
+note that the first time `*p` is used, it is written after the type specification `int`, which turns it into a declaration of the pointer `p` which points to the memory address of x (`&x`). The second time `*p` is used, it is already initialized, so by using the asterisk operator, we are actually dereferencing it and assigning a value to "the variable pointed to by `p`", instead of the pointer `p` itself.
+
+As for memory addresses, we have already used them when using the `scanf()` function. The second positional argument in `scanf()` takes a memory address to assign the user input to. For instance, we have to pass `&x` instead of `x` to assign user input to the variable `x` using `scanf()`:
+
+```C
+scanf("%d", x) // WRONG
+scanf("%d", &x) // CORRECT
+```
+
+This is due to the way functions handle arguments in C. If we pass a variable in the main function scope into another function, it will instead pass a copy of the value for the function to use, not the variable itself. Changes made in the function would not be reflected in the main function. Take the following program for example.
+
+<p align='center'> <img class='noshade' src='./testoutput.png' width=75%> </p>
+
+As we can see, when the value of `num` is printed, it is still 5, and not 10, which is what it would have been if the changes in the function were reflected in the main function.
+
+I hope it's clear now why we need to pass the memory address of the variable we want to pass the input into, instead of the variable itself. As the function `scanf()` modifies the contents of the variable, we need to pass its pointer, so that it is *passed by reference* instead of *passed by value*. This will allow the function to directly modify the variable by accessing the variable using its pointer, which contains the memory address. Let's see how we can make the example above actually modify the value:
+
+<p align='center'> <img class='noshade' src='./modifiedoutput.png' width=75%> </p>
+
+This time, the function is declared to take the pointer to an integer variable as an argument. This is as opposed to the variable itself in the previous program. Doing so passes the variable's address to the function instead of a copy of its value. Then, that address is assigned to the pointer `p`, which is then used to modify the variable pointed to by `p`. Even though the function does not return anything, it is able to modify the variable in the main function, because it interacted directly with the variable using its pointer, instead of with a copy of the variable.
+
+It should be obvious too that this method has another benefit: we don't need to allocate extra memory to copy the variable's value for use in the function. Instead, we interact directly with the variable using its memory address. This memory efficiency is particularly beneficial when dealing with large data structures and operations.
+
+
+
+[comment]: <> (Below is CSS code for the output HTML and pdf files. Don't touch them unless you know what you're doing.)
+<style>
+    figcaption{
+    text-align:center;
+        font-size:9pt
+    }
+    img{
+        filter: drop-shadow(0px 0px 7px );
+    }
+    .noshade{
+        filter: none
+    }
+</style>
