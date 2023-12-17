@@ -5,7 +5,7 @@ alias l='ls -lav --ignore=.?*'   # show long listing but no hidden dotfiles exce
 # [[ "$(whoami)" = "root" ]] && return
 
 # [[ -z "$FUNCNEST" ]] && export FUNCNEST=100          # limits recursive functions, see 'man bash'
-PS1="\e[1;35m\u\e[m \W $ "
+PS1="\[\e[1;35m\]\u\[\e[m\] \W $ "
 ## Use the up and down arrow keys for finding a command in history
 ## (you can write some initial letters of the command first).
 bind '"\e[A":history-search-backward'

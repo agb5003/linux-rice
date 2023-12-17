@@ -118,8 +118,7 @@
     ],
     "window.commandCenter": false,
     "markdown-preview-enhanced.codeBlockTheme": "github.css",
-    "markdown-preview-enhanced.previewTheme": "none.css",
-    "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Rubik'",
+    "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Roboto'",
     "cSpell.userWords": [
         "Fernaldy",
         "infty"
@@ -137,5 +136,9 @@
             "savePathReplacementPairs": null
         }
     ],
-    "window.titleBarStyle": "custom"
+    "window.titleBarStyle": "custom",
+    "markdown-preview-enhanced.pandocArguments": [
+    ],
+    "markdown-preview-enhanced.previewTheme": "github-light.css",
+    "markdown-preview-enhanced.printBackground": true
 }

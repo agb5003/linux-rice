@@ -89,7 +89,7 @@
 
 			"<style>"
 			"	figcaption{"
-			"	text-align:center;"
+			"		text-align:center;"
 			"		font-size:9pt"
 			"	}"
 			"	img{"
@@ -97,6 +97,12 @@
 			"	}"
 			"	.noshade{"
 			"		filter: none"
+			"	}"
+			"	.disclaimer{"
+			"		font-size: 9pt"
+			"	}"
+			"	.linker{"
+			"		color: inherit !important"
 			"	}"
 			"</style>"
 		],

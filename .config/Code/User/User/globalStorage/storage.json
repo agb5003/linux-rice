@@ -4,7 +4,8 @@
         "workspaces": {
             "file:///run/media/max/MAX": "__default__profile__",
             "file:///home/max/repos/sitebuild": "__default__profile__",
-            "file:///home/max/repos/pip": "__default__profile__"
+            "file:///home/max/repos/pip": "__default__profile__",
+            "file:///home/max/repos/cs1": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -16,6 +17,9 @@
         "folders": [
             {
                 "folderUri": "file:///home/max/repos/pip"
+            },
+            {
+                "folderUri": "file:///home/max/repos/cs1"
             }
         ],
         "emptyWindows": []
@@ -1767,20 +1771,20 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 30,
             "activityBarWidth": 48,
-            "sideBarWidth": 203,
+            "sideBarWidth": 192,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/max/repos/pip",
-            "backupPath": "/home/max/.config/Code/Backups/dd32302f8d1fffbeddcf3cd6318ebb28",
+            "folder": "file:///home/max/repos/cs1",
+            "backupPath": "/home/max/.config/Code/Backups/127431e4d6b21439cba1b5539e6076a3",
             "uiState": {
                 "mode": 1,
-                "x": 908,
+                "x": 0,
                 "y": 25,
-                "width": 1012,
+                "width": 960,
                 "height": 1055
             }
         },
