@@ -210,16 +210,16 @@ client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 client.background       #ffffff
 
 # Execs
-exec --no-startup-id picom -b -f
+exec_always --no-startup-id picom -b -f
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always --no-startup-id xinput --set-prop "pointer:pulsar X2 V2" 'libinput Accel Speed' -0.6
 
 # gaps
-gaps inner 6
+gaps inner 5
 gaps outer 0
 
 # hide title bar
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 3 
 
 # Title Padding (Usually 1 space looks best)
 for_window [class=".*"] title_format " %title"
