@@ -87,7 +87,7 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-# bindsym $mod+h split horizontal
+bindsym $mod+Shift+v split horizontal
 
 # split in vertical orientation
 bindsym $mod+v split vertical
@@ -197,10 +197,11 @@ for_window [title="Authy"] floating enable
 for_window [title="Bitwarden"] floating enable
 for_window [class="GitHub Desktop"] floating enable
 for_window [window_role="pop-up"] floating enable
+for_window [class="ark"] floating enable
 
 # Colors
 # class                 border  backgr. text    indicator child_border
-client.focused          #CA3EB7 #8ABEB7 #ffffff #ffffff   #BA4EA7
+client.focused          #1F6FEB #1F6FEB #ffffff #9A9E97   #1F6FEB
 client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
 client.unfocused        #333333 #222222 #888888 #292d2e   #222222
 client.urgent           #2f343a #900000 #ffffff #900000   #900000
@@ -211,7 +212,7 @@ client.background       #ffffff
 # Execs
 exec --no-startup-id picom -b -f
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec --no-startup-id xinput --set-prop "pointer:pulsar X2 V2" 'libinput Accel Speed' -0.6
+exec_always --no-startup-id xinput --set-prop "pointer:pulsar X2 V2" 'libinput Accel Speed' -0.6
 
 # gaps
 gaps inner 6
